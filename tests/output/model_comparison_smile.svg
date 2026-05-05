@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<style>text { font-family: Arial, sans-serif; fill: #111; } .title { font-size: 18px; font-weight: bold; } .axis { font-size: 11px; fill: #444; } .legend { font-size: 11px; } .grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; } .frame { stroke: #444; stroke-width: 1; fill: none; }</style>
+<text x="360.0" y="24" text-anchor="middle" class="title">Smile Comparison</text>
+<line x1="70.00" y1="45" x2="70.00" y2="365" class="grid"/>
+<text x="70.00" y="383" text-anchor="middle" class="axis">85</text>
+<line x1="227.50" y1="45" x2="227.50" y2="365" class="grid"/>
+<text x="227.50" y="383" text-anchor="middle" class="axis">92.5</text>
+<line x1="385.00" y1="45" x2="385.00" y2="365" class="grid"/>
+<text x="385.00" y="383" text-anchor="middle" class="axis">100</text>
+<line x1="542.50" y1="45" x2="542.50" y2="365" class="grid"/>
+<text x="542.50" y="383" text-anchor="middle" class="axis">108</text>
+<line x1="700.00" y1="45" x2="700.00" y2="365" class="grid"/>
+<text x="700.00" y="383" text-anchor="middle" class="axis">115</text>
+<line x1="70" y1="365.00" x2="700" y2="365.00" class="grid"/>
+<text x="62" y="369.00" text-anchor="end" class="axis">0.15</text>
+<line x1="70" y1="285.00" x2="700" y2="285.00" class="grid"/>
+<text x="62" y="289.00" text-anchor="end" class="axis">0.159</text>
+<line x1="70" y1="205.00" x2="700" y2="205.00" class="grid"/>
+<text x="62" y="209.00" text-anchor="end" class="axis">0.168</text>
+<line x1="70" y1="125.00" x2="700" y2="125.00" class="grid"/>
+<text x="62" y="129.00" text-anchor="end" class="axis">0.177</text>
+<line x1="70" y1="45.00" x2="700" y2="45.00" class="grid"/>
+<text x="62" y="49.00" text-anchor="end" class="axis">0.186</text>
+<rect x="70" y="45" width="630" height="320" class="frame"/>
+<polyline points="70.00,155.13 280.00,198.88 385.00,228.68 490.00,278.36 700.00,278.75" fill="none" stroke="#111111" stroke-width="2.2"/>
+<circle cx="70.00" cy="155.13" r="3" fill="#111111"/>
+<circle cx="280.00" cy="198.88" r="3" fill="#111111"/>
+<circle cx="385.00" cy="228.68" r="3" fill="#111111"/>
+<circle cx="490.00" cy="278.36" r="3" fill="#111111"/>
+<circle cx="700.00" cy="278.75" r="3" fill="#111111"/>
+<polyline points="70.00,45.00 280.00,146.10 385.00,180.60 490.00,214.19 700.00,243.23" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="70.00" cy="45.00" r="3" fill="#1f77b4"/>
+<circle cx="280.00" cy="146.10" r="3" fill="#1f77b4"/>
+<circle cx="385.00" cy="180.60" r="3" fill="#1f77b4"/>
+<circle cx="490.00" cy="214.19" r="3" fill="#1f77b4"/>
+<circle cx="700.00" cy="243.23" r="3" fill="#1f77b4"/>
+<polyline points="70.00,144.47 280.00,175.39 385.00,242.62 490.00,296.18 700.00,298.45" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="70.00" cy="144.47" r="3" fill="#d62728"/>
+<circle cx="280.00" cy="175.39" r="3" fill="#d62728"/>
+<circle cx="385.00" cy="242.62" r="3" fill="#d62728"/>
+<circle cx="490.00" cy="296.18" r="3" fill="#d62728"/>
+<circle cx="700.00" cy="298.45" r="3" fill="#d62728"/>
+<polyline points="70.00,365.00 280.00,365.00 385.00,365.00 490.00,365.00 700.00,365.00" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="70.00" cy="365.00" r="3" fill="#2ca02c"/>
+<circle cx="280.00" cy="365.00" r="3" fill="#2ca02c"/>
+<circle cx="385.00" cy="365.00" r="3" fill="#2ca02c"/>
+<circle cx="490.00" cy="365.00" r="3" fill="#2ca02c"/>
+<circle cx="700.00" cy="365.00" r="3" fill="#2ca02c"/>
+<line x1="78" y1="59" x2="96" y2="59" stroke="#111111" stroke-width="2.2"/>
+<circle cx="87" cy="59" r="3" fill="#111111"/>
+<text x="102" y="63" class="legend">Rough Bergomi</text>
+<line x1="78" y1="75" x2="96" y2="75" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="87" cy="75" r="3" fill="#1f77b4"/>
+<text x="102" y="79" class="legend">Local Vol (Dupire)</text>
+<line x1="78" y1="91" x2="96" y2="91" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="87" cy="91" r="3" fill="#d62728"/>
+<text x="102" y="95" class="legend">Heston</text>
+<line x1="78" y1="107" x2="96" y2="107" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="87" cy="107" r="3" fill="#2ca02c"/>
+<text x="102" y="111" class="legend">Black-Scholes</text>
+</svg>

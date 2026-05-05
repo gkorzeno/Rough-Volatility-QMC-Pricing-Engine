@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360">
+<style>text { font-family: Arial, sans-serif; fill: #111; } .title { font-size: 18px; font-weight: bold; } .axis { font-size: 11px; fill: #444; } .frame { stroke: #444; stroke-width: 1; fill: none; }</style>
+<text x="260.0" y="24" text-anchor="middle" class="title">Surface Calibration Error</text>
+<rect x="60" y="50" width="420" height="250" class="frame"/>
+<rect x="83.62" y="300.00" width="57.75" height="0.00" fill="#111111"/>
+<text x="112.50" y="318" text-anchor="middle" class="axis">Rough Bergomi</text>
+<text x="112.50" y="294.00" text-anchor="middle" class="axis">0.0000</text>
+<rect x="188.62" y="102.02" width="57.75" height="197.98" fill="#1f77b4"/>
+<text x="217.50" y="318" text-anchor="middle" class="axis">Local Vol (Dupire)</text>
+<text x="217.50" y="96.02" text-anchor="middle" class="axis">0.0289</text>
+<rect x="293.62" y="72.73" width="57.75" height="227.27" fill="#d62728"/>
+<text x="322.50" y="318" text-anchor="middle" class="axis">Heston</text>
+<text x="322.50" y="66.73" text-anchor="middle" class="axis">0.0332</text>
+<rect x="398.62" y="96.53" width="57.75" height="203.47" fill="#2ca02c"/>
+<text x="427.50" y="318" text-anchor="middle" class="axis">Black-Scholes</text>
+<text x="427.50" y="90.53" text-anchor="middle" class="axis">0.0297</text>
+</svg>

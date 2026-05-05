@@ -1,0 +1,33 @@
+kind,model,x,y,implied_vol
+smile,Rough Bergomi,1,85,0.173616
+smile,Rough Bergomi,1,95,0.168693
+smile,Rough Bergomi,1,100,0.16534
+smile,Rough Bergomi,1,105,0.159749
+smile,Rough Bergomi,1,115,0.159705
+term,Rough Bergomi,100,0.25,0.135388
+term,Rough Bergomi,100,0.5,0.152881
+term,Rough Bergomi,100,1,0.16534
+smile,Local Vol (Dupire),1,85,0.186009
+smile,Local Vol (Dupire),1,95,0.174632
+smile,Local Vol (Dupire),1,100,0.17075
+smile,Local Vol (Dupire),1,105,0.16697
+smile,Local Vol (Dupire),1,115,0.163702
+term,Local Vol (Dupire),100,0.25,0.152898
+term,Local Vol (Dupire),100,0.5,0.16648
+term,Local Vol (Dupire),100,1,0.17075
+smile,Heston,1,85,0.174816
+smile,Heston,1,95,0.171337
+smile,Heston,1,100,0.163771
+smile,Heston,1,105,0.157744
+smile,Heston,1,115,0.157489
+term,Heston,100,0.25,0.202782
+term,Heston,100,0.5,0.167622
+term,Heston,100,1,0.163771
+smile,Black-Scholes,1,85,0.15
+smile,Black-Scholes,1,95,0.15
+smile,Black-Scholes,1,100,0.15
+smile,Black-Scholes,1,105,0.15
+smile,Black-Scholes,1,115,0.15
+term,Black-Scholes,100,0.25,0.15
+term,Black-Scholes,100,0.5,0.15
+term,Black-Scholes,100,1,0.15

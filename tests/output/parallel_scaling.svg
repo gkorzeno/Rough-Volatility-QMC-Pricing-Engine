@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 18px; font-weight: bold; }
+.panel { font-size: 13px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="560" y="24" text-anchor="middle" class="title">Parallel Scaling Study</text>
+<rect x="20" y="50" width="520" height="320" fill="#fff" stroke="#dddddd"/>
+<text x="280.0" y="70" text-anchor="middle" class="panel">Speedup vs Cores</text>
+<line x1="84.00" y1="88" x2="84.00" y2="315" class="grid"/>
+<text x="84.00" y="333" text-anchor="middle" class="axis">1</text>
+<line x1="193.00" y1="88" x2="193.00" y2="315" class="grid"/>
+<text x="193.00" y="333" text-anchor="middle" class="axis">3</text>
+<line x1="302.00" y1="88" x2="302.00" y2="315" class="grid"/>
+<text x="302.00" y="333" text-anchor="middle" class="axis">4</text>
+<line x1="411.00" y1="88" x2="411.00" y2="315" class="grid"/>
+<text x="411.00" y="333" text-anchor="middle" class="axis">6</text>
+<line x1="520.00" y1="88" x2="520.00" y2="315" class="grid"/>
+<text x="520.00" y="333" text-anchor="middle" class="axis">8</text>
+<line x1="84" y1="315.00" x2="520" y2="315.00" class="grid"/>
+<text x="76" y="319.00" text-anchor="end" class="axis">0.701</text>
+<line x1="84" y1="258.25" x2="520" y2="258.25" class="grid"/>
+<text x="76" y="262.25" text-anchor="end" class="axis">1.79</text>
+<line x1="84" y1="201.50" x2="520" y2="201.50" class="grid"/>
+<text x="76" y="205.50" text-anchor="end" class="axis">2.87</text>
+<line x1="84" y1="144.75" x2="520" y2="144.75" class="grid"/>
+<text x="76" y="148.75" text-anchor="end" class="axis">3.96</text>
+<line x1="84" y1="88.00" x2="520" y2="88.00" class="grid"/>
+<text x="76" y="92.00" text-anchor="end" class="axis">5.04</text>
+<line x1="84" y1="299.34" x2="520" y2="299.34" stroke="#888" stroke-dasharray="5,4" stroke-width="1.2"/>
+<rect x="84" y="88" width="436" height="227" class="frame"/>
+<polyline points="84.00,299.34 146.29,246.36 270.86,171.69 520.00,103.66" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="84.00" cy="299.34" r="3" fill="#1f77b4"/>
+<circle cx="146.29" cy="246.36" r="3" fill="#1f77b4"/>
+<circle cx="270.86" cy="171.69" r="3" fill="#1f77b4"/>
+<circle cx="520.00" cy="103.66" r="3" fill="#1f77b4"/>
+<polyline points="84.00,299.34 146.29,262.88 270.86,188.75 520.00,134.34" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="84.00" cy="299.34" r="3" fill="#d62728"/>
+<circle cx="146.29" cy="262.88" r="3" fill="#d62728"/>
+<circle cx="270.86" cy="188.75" r="3" fill="#d62728"/>
+<circle cx="520.00" cy="134.34" r="3" fill="#d62728"/>
+<text x="280.0" y="356" text-anchor="middle" class="axis">Threads / cores</text>
+<text x="38" y="210.0" text-anchor="middle" transform="rotate(-90 38 210.0)" class="axis">Speedup</text>
+<rect x="580" y="50" width="520" height="320" fill="#fff" stroke="#dddddd"/>
+<text x="840.0" y="70" text-anchor="middle" class="panel">Efficiency vs Cores</text>
+<line x1="644.00" y1="88" x2="644.00" y2="315" class="grid"/>
+<text x="644.00" y="333" text-anchor="middle" class="axis">1</text>
+<line x1="753.00" y1="88" x2="753.00" y2="315" class="grid"/>
+<text x="753.00" y="333" text-anchor="middle" class="axis">3</text>
+<line x1="862.00" y1="88" x2="862.00" y2="315" class="grid"/>
+<text x="862.00" y="333" text-anchor="middle" class="axis">4</text>
+<line x1="971.00" y1="88" x2="971.00" y2="315" class="grid"/>
+<text x="971.00" y="333" text-anchor="middle" class="axis">6</text>
+<line x1="1080.00" y1="88" x2="1080.00" y2="315" class="grid"/>
+<text x="1080.00" y="333" text-anchor="middle" class="axis">8</text>
+<line x1="644" y1="315.00" x2="1080" y2="315.00" class="grid"/>
+<text x="636" y="319.00" text-anchor="end" class="axis">0.481</text>
+<line x1="644" y1="258.25" x2="1080" y2="258.25" class="grid"/>
+<text x="636" y="262.25" text-anchor="end" class="axis">0.622</text>
+<line x1="644" y1="201.50" x2="1080" y2="201.50" class="grid"/>
+<text x="636" y="205.50" text-anchor="end" class="axis">0.763</text>
+<line x1="644" y1="144.75" x2="1080" y2="144.75" class="grid"/>
+<text x="636" y="148.75" text-anchor="end" class="axis">0.904</text>
+<line x1="644" y1="88.00" x2="1080" y2="88.00" class="grid"/>
+<text x="636" y="92.00" text-anchor="end" class="axis">1.05</text>
+<line x1="644" y1="106.37" x2="1080" y2="106.37" stroke="#888" stroke-dasharray="5,4" stroke-width="1.2"/>
+<rect x="644" y="88" width="436" height="227" class="frame"/>
+<polyline points="644.00,106.37 706.29,103.66 830.86,162.41 1080.00,269.87" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="644.00" cy="106.37" r="3" fill="#1f77b4"/>
+<circle cx="706.29" cy="103.66" r="3" fill="#1f77b4"/>
+<circle cx="830.86" cy="162.41" r="3" fill="#1f77b4"/>
+<circle cx="1080.00" cy="269.87" r="3" fill="#1f77b4"/>
+<polyline points="644.00,106.37 706.29,167.13 830.86,195.17 1080.00,299.34" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="644.00" cy="106.37" r="3" fill="#d62728"/>
+<circle cx="706.29" cy="167.13" r="3" fill="#d62728"/>
+<circle cx="830.86" cy="195.17" r="3" fill="#d62728"/>
+<circle cx="1080.00" cy="299.34" r="3" fill="#d62728"/>
+<text x="840.0" y="356" text-anchor="middle" class="axis">Threads / cores</text>
+<text x="598" y="210.0" text-anchor="middle" transform="rotate(-90 598 210.0)" class="axis">Efficiency</text>
+<rect x="300" y="400" width="520" height="320" fill="#fff" stroke="#dddddd"/>
+<text x="560.0" y="420" text-anchor="middle" class="panel">Runtime vs Cores</text>
+<line x1="364.00" y1="438" x2="364.00" y2="665" class="grid"/>
+<text x="364.00" y="683" text-anchor="middle" class="axis">1</text>
+<line x1="473.00" y1="438" x2="473.00" y2="665" class="grid"/>
+<text x="473.00" y="683" text-anchor="middle" class="axis">3</text>
+<line x1="582.00" y1="438" x2="582.00" y2="665" class="grid"/>
+<text x="582.00" y="683" text-anchor="middle" class="axis">4</text>
+<line x1="691.00" y1="438" x2="691.00" y2="665" class="grid"/>
+<text x="691.00" y="683" text-anchor="middle" class="axis">6</text>
+<line x1="800.00" y1="438" x2="800.00" y2="665" class="grid"/>
+<text x="800.00" y="683" text-anchor="middle" class="axis">8</text>
+<line x1="364" y1="665.00" x2="800" y2="665.00" class="grid"/>
+<text x="356" y="669.00" text-anchor="end" class="axis">0.261</text>
+<line x1="364" y1="608.25" x2="800" y2="608.25" class="grid"/>
+<text x="356" y="612.25" text-anchor="end" class="axis">0.666</text>
+<line x1="364" y1="551.50" x2="800" y2="551.50" class="grid"/>
+<text x="356" y="555.50" text-anchor="end" class="axis">1.07</text>
+<line x1="364" y1="494.75" x2="800" y2="494.75" class="grid"/>
+<text x="356" y="498.75" text-anchor="end" class="axis">1.48</text>
+<line x1="364" y1="438.00" x2="800" y2="438.00" class="grid"/>
+<text x="356" y="442.00" text-anchor="end" class="axis">1.88</text>
+<rect x="364" y="438" width="436" height="227" class="frame"/>
+<polyline points="364.00,453.66 426.29,578.47 550.86,629.58 800.00,649.34" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="364.00" cy="453.66" r="3" fill="#1f77b4"/>
+<circle cx="426.29" cy="578.47" r="3" fill="#1f77b4"/>
+<circle cx="550.86" cy="629.58" r="3" fill="#1f77b4"/>
+<circle cx="800.00" cy="649.34" r="3" fill="#1f77b4"/>
+<polyline points="364.00,611.00 426.29,594.85 550.86,585.28 800.00,527.20" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="364.00" cy="611.00" r="3" fill="#d62728"/>
+<circle cx="426.29" cy="594.85" r="3" fill="#d62728"/>
+<circle cx="550.86" cy="585.28" r="3" fill="#d62728"/>
+<circle cx="800.00" cy="527.20" r="3" fill="#d62728"/>
+<text x="560.0" y="706" text-anchor="middle" class="axis">Threads / cores</text>
+<text x="318" y="560.0" text-anchor="middle" transform="rotate(-90 318 560.0)" class="axis">Mean wall time (s)</text>
+<line x1="90" y1="86" x2="108" y2="86" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="99" cy="86" r="3" fill="#1f77b4"/>
+<text x="114" y="90" class="legend">Strong scaling</text>
+<line x1="90" y1="102" x2="108" y2="102" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="99" cy="102" r="3" fill="#d62728"/>
+<text x="114" y="106" class="legend">Weak scaling</text>
+</svg>

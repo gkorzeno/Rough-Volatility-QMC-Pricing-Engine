@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="780" viewBox="0 0 1120 780">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 18px; font-weight: bold; }
+.panel-title { font-size: 13px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="560" y="24" text-anchor="middle" class="title">Calibration Under Noise: MC vs QMC vs RQMC</text>
+<rect x="20" y="40" width="520" height="320" fill="#ffffff" stroke="#dddddd"/>
+<text x="280.0" y="60" text-anchor="middle" class="panel-title">Recovered Parameter RMSE</text>
+<line x1="90.00" y1="78" x2="90.00" y2="305" class="grid"/>
+<text x="90.00" y="323" text-anchor="middle" class="axis">8</text>
+<line x1="198.00" y1="78" x2="198.00" y2="305" class="grid"/>
+<text x="198.00" y="323" text-anchor="middle" class="axis">22</text>
+<line x1="306.00" y1="78" x2="306.00" y2="305" class="grid"/>
+<text x="306.00" y="323" text-anchor="middle" class="axis">36</text>
+<line x1="414.00" y1="78" x2="414.00" y2="305" class="grid"/>
+<text x="414.00" y="323" text-anchor="middle" class="axis">50</text>
+<line x1="522.00" y1="78" x2="522.00" y2="305" class="grid"/>
+<text x="522.00" y="323" text-anchor="middle" class="axis">64</text>
+<line x1="90" y1="305.00" x2="522" y2="305.00" class="grid"/>
+<text x="82" y="309.00" text-anchor="end" class="axis">0.111</text>
+<line x1="90" y1="248.25" x2="522" y2="248.25" class="grid"/>
+<text x="82" y="252.25" text-anchor="end" class="axis">0.285</text>
+<line x1="90" y1="191.50" x2="522" y2="191.50" class="grid"/>
+<text x="82" y="195.50" text-anchor="end" class="axis">0.459</text>
+<line x1="90" y1="134.75" x2="522" y2="134.75" class="grid"/>
+<text x="82" y="138.75" text-anchor="end" class="axis">0.633</text>
+<line x1="90" y1="78.00" x2="522" y2="78.00" class="grid"/>
+<text x="82" y="82.00" text-anchor="end" class="axis">0.807</text>
+<rect x="90" y="78" width="432" height="227" class="frame"/>
+<polyline points="90.00,267.91 151.71,266.18 275.14,273.41 522.00,274.25" fill="none" stroke="#222222" stroke-width="2.2"/>
+<circle cx="90.00" cy="267.91" r="3" fill="#222222"/>
+<circle cx="151.71" cy="266.18" r="3" fill="#222222"/>
+<circle cx="275.14" cy="273.41" r="3" fill="#222222"/>
+<circle cx="522.00" cy="274.25" r="3" fill="#222222"/>
+<polyline points="90.00,305.00 151.71,78.00 275.14,278.12 522.00,247.24" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="90.00" cy="305.00" r="3" fill="#1f77b4"/>
+<circle cx="151.71" cy="78.00" r="3" fill="#1f77b4"/>
+<circle cx="275.14" cy="278.12" r="3" fill="#1f77b4"/>
+<circle cx="522.00" cy="247.24" r="3" fill="#1f77b4"/>
+<polyline points="90.00,269.96 151.71,266.74 275.14,270.26 522.00,271.40" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="90.00" cy="269.96" r="3" fill="#d62728"/>
+<circle cx="151.71" cy="266.74" r="3" fill="#d62728"/>
+<circle cx="275.14" cy="270.26" r="3" fill="#d62728"/>
+<circle cx="522.00" cy="271.40" r="3" fill="#d62728"/>
+<text x="280.0" y="346" text-anchor="middle" class="axis">Paths per evaluation</text>
+<text x="38" y="200.0" text-anchor="middle" transform="rotate(-90 38 200.0)" class="axis">Parameter RMSE</text>
+<line x1="98" y1="92" x2="116" y2="92" stroke="#222222" stroke-width="2.2"/>
+<circle cx="107" cy="92" r="3" fill="#222222"/>
+<text x="122" y="96" class="legend">MC (slope=-0.05)</text>
+<line x1="98" y1="108" x2="116" y2="108" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="107" cy="108" r="3" fill="#1f77b4"/>
+<text x="122" y="112" class="legend">QMC (slope=0.21)</text>
+<line x1="98" y1="124" x2="116" y2="124" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="107" cy="124" r="3" fill="#d62728"/>
+<text x="122" y="128" class="legend">RQMC (slope=-0.02)</text>
+<rect x="580" y="40" width="520" height="320" fill="#ffffff" stroke="#dddddd"/>
+<text x="840.0" y="60" text-anchor="middle" class="panel-title">Objective RMSE</text>
+<line x1="650.00" y1="78" x2="650.00" y2="305" class="grid"/>
+<text x="650.00" y="323" text-anchor="middle" class="axis">8</text>
+<line x1="758.00" y1="78" x2="758.00" y2="305" class="grid"/>
+<text x="758.00" y="323" text-anchor="middle" class="axis">22</text>
+<line x1="866.00" y1="78" x2="866.00" y2="305" class="grid"/>
+<text x="866.00" y="323" text-anchor="middle" class="axis">36</text>
+<line x1="974.00" y1="78" x2="974.00" y2="305" class="grid"/>
+<text x="974.00" y="323" text-anchor="middle" class="axis">50</text>
+<line x1="1082.00" y1="78" x2="1082.00" y2="305" class="grid"/>
+<text x="1082.00" y="323" text-anchor="middle" class="axis">64</text>
+<line x1="650" y1="305.00" x2="1082" y2="305.00" class="grid"/>
+<text x="642" y="309.00" text-anchor="end" class="axis">0.0447</text>
+<line x1="650" y1="248.25" x2="1082" y2="248.25" class="grid"/>
+<text x="642" y="252.25" text-anchor="end" class="axis">3.92</text>
+<line x1="650" y1="191.50" x2="1082" y2="191.50" class="grid"/>
+<text x="642" y="195.50" text-anchor="end" class="axis">7.79</text>
+<line x1="650" y1="134.75" x2="1082" y2="134.75" class="grid"/>
+<text x="642" y="138.75" text-anchor="end" class="axis">11.7</text>
+<line x1="650" y1="78.00" x2="1082" y2="78.00" class="grid"/>
+<text x="642" y="82.00" text-anchor="end" class="axis">15.5</text>
+<rect x="650" y="78" width="432" height="227" class="frame"/>
+<polyline points="650.00,304.12 711.71,304.21 835.14,304.33 1082.00,304.48" fill="none" stroke="#222222" stroke-width="2.2"/>
+<circle cx="650.00" cy="304.12" r="3" fill="#222222"/>
+<circle cx="711.71" cy="304.21" r="3" fill="#222222"/>
+<circle cx="835.14" cy="304.33" r="3" fill="#222222"/>
+<circle cx="1082.00" cy="304.48" r="3" fill="#222222"/>
+<polyline points="650.00,228.73 711.71,174.26 835.14,118.33 1082.00,78.00" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="650.00" cy="228.73" r="3" fill="#1f77b4"/>
+<circle cx="711.71" cy="174.26" r="3" fill="#1f77b4"/>
+<circle cx="835.14" cy="118.33" r="3" fill="#1f77b4"/>
+<circle cx="1082.00" cy="78.00" r="3" fill="#1f77b4"/>
+<polyline points="650.00,304.21 711.71,304.11 835.14,304.48 1082.00,305.00" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="650.00" cy="304.21" r="3" fill="#d62728"/>
+<circle cx="711.71" cy="304.11" r="3" fill="#d62728"/>
+<circle cx="835.14" cy="304.48" r="3" fill="#d62728"/>
+<circle cx="1082.00" cy="305.00" r="3" fill="#d62728"/>
+<text x="840.0" y="346" text-anchor="middle" class="axis">Paths per evaluation</text>
+<text x="598" y="200.0" text-anchor="middle" transform="rotate(-90 598 200.0)" class="axis">Surface RMSE</text>
+<line x1="658" y1="92" x2="676" y2="92" stroke="#222222" stroke-width="2.2"/>
+<circle cx="667" cy="92" r="3" fill="#222222"/>
+<text x="682" y="96" class="legend">MC (slope=-0.13)</text>
+<line x1="658" y1="108" x2="676" y2="108" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="667" cy="108" r="3" fill="#1f77b4"/>
+<text x="682" y="112" class="legend">QMC (slope=0.52)</text>
+<line x1="658" y1="124" x2="676" y2="124" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="667" cy="124" r="3" fill="#d62728"/>
+<text x="682" y="128" class="legend">RQMC (slope=-0.38)</text>
+<rect x="300" y="390" width="520" height="320" fill="#ffffff" stroke="#dddddd"/>
+<text x="560.0" y="410" text-anchor="middle" class="panel-title">Recovered Parameter StdDev Norm</text>
+<line x1="370.00" y1="428" x2="370.00" y2="655" class="grid"/>
+<text x="370.00" y="673" text-anchor="middle" class="axis">8</text>
+<line x1="478.00" y1="428" x2="478.00" y2="655" class="grid"/>
+<text x="478.00" y="673" text-anchor="middle" class="axis">22</text>
+<line x1="586.00" y1="428" x2="586.00" y2="655" class="grid"/>
+<text x="586.00" y="673" text-anchor="middle" class="axis">36</text>
+<line x1="694.00" y1="428" x2="694.00" y2="655" class="grid"/>
+<text x="694.00" y="673" text-anchor="middle" class="axis">50</text>
+<line x1="802.00" y1="428" x2="802.00" y2="655" class="grid"/>
+<text x="802.00" y="673" text-anchor="middle" class="axis">64</text>
+<line x1="370" y1="655.00" x2="802" y2="655.00" class="grid"/>
+<text x="362" y="659.00" text-anchor="end" class="axis">2.93e-17</text>
+<line x1="370" y1="598.25" x2="802" y2="598.25" class="grid"/>
+<text x="362" y="602.25" text-anchor="end" class="axis">0.012</text>
+<line x1="370" y1="541.50" x2="802" y2="541.50" class="grid"/>
+<text x="362" y="545.50" text-anchor="end" class="axis">0.0241</text>
+<line x1="370" y1="484.75" x2="802" y2="484.75" class="grid"/>
+<text x="362" y="488.75" text-anchor="end" class="axis">0.0361</text>
+<line x1="370" y1="428.00" x2="802" y2="428.00" class="grid"/>
+<text x="362" y="432.00" text-anchor="end" class="axis">0.0482</text>
+<rect x="370" y="428" width="432" height="227" class="frame"/>
+<polyline points="370.00,500.07 431.71,493.23 555.14,428.00 802.00,500.69" fill="none" stroke="#222222" stroke-width="2.2"/>
+<circle cx="370.00" cy="500.07" r="3" fill="#222222"/>
+<circle cx="431.71" cy="493.23" r="3" fill="#222222"/>
+<circle cx="555.14" cy="428.00" r="3" fill="#222222"/>
+<circle cx="802.00" cy="500.69" r="3" fill="#222222"/>
+<polyline points="370.00,655.00 431.71,655.00 555.14,655.00 802.00,655.00" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="370.00" cy="655.00" r="3" fill="#1f77b4"/>
+<circle cx="431.71" cy="655.00" r="3" fill="#1f77b4"/>
+<circle cx="555.14" cy="655.00" r="3" fill="#1f77b4"/>
+<circle cx="802.00" cy="655.00" r="3" fill="#1f77b4"/>
+<polyline points="370.00,517.81 431.71,502.26 555.14,487.07 802.00,435.42" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="370.00" cy="517.81" r="3" fill="#d62728"/>
+<circle cx="431.71" cy="502.26" r="3" fill="#d62728"/>
+<circle cx="555.14" cy="487.07" r="3" fill="#d62728"/>
+<circle cx="802.00" cy="435.42" r="3" fill="#d62728"/>
+<text x="560.0" y="696" text-anchor="middle" class="axis">Paths per evaluation</text>
+<text x="318" y="550.0" text-anchor="middle" transform="rotate(-90 318 550.0)" class="axis">StdDev RMS(xi0, eta, rho, H)</text>
+<line x1="378" y1="442" x2="396" y2="442" stroke="#222222" stroke-width="2.2"/>
+<circle cx="387" cy="442" r="3" fill="#222222"/>
+<text x="402" y="446" class="legend">MC (slope=0.05)</text>
+<line x1="378" y1="458" x2="396" y2="458" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="387" cy="458" r="3" fill="#1f77b4"/>
+<text x="402" y="462" class="legend">QMC (slope=0.84)</text>
+<line x1="378" y1="474" x2="396" y2="474" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="387" cy="474" r="3" fill="#d62728"/>
+<text x="402" y="478" class="legend">RQMC (slope=0.22)</text>
+</svg>

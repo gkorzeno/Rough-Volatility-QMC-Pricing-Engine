@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 18px; font-weight: bold; }
+.subtitle { font-size: 12px; fill: #555; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="480" y="24" text-anchor="middle" class="title">Multi-Asset QMC Dimension Ordering Convergence</text>
+<text x="480" y="42" text-anchor="middle" class="subtitle">2-asset spread option under correlated GBM, log-log error vs paths</text>
+<line x1="86.00" y1="60" x2="86.00" y2="496" class="grid"/>
+<text x="86.00" y="514" text-anchor="middle" class="axis">10^2.4</text>
+<line x1="298.50" y1="60" x2="298.50" y2="496" class="grid"/>
+<text x="298.50" y="514" text-anchor="middle" class="axis">10^2.7</text>
+<line x1="511.00" y1="60" x2="511.00" y2="496" class="grid"/>
+<text x="511.00" y="514" text-anchor="middle" class="axis">10^3</text>
+<line x1="723.50" y1="60" x2="723.50" y2="496" class="grid"/>
+<text x="723.50" y="514" text-anchor="middle" class="axis">10^3.3</text>
+<line x1="936.00" y1="60" x2="936.00" y2="496" class="grid"/>
+<text x="936.00" y="514" text-anchor="middle" class="axis">10^3.6</text>
+<line x1="86" y1="496.00" x2="936" y2="496.00" class="grid"/>
+<text x="78" y="500.00" text-anchor="end" class="axis">10^-2.9</text>
+<line x1="86" y1="387.00" x2="936" y2="387.00" class="grid"/>
+<text x="78" y="391.00" text-anchor="end" class="axis">10^-2.2</text>
+<line x1="86" y1="278.00" x2="936" y2="278.00" class="grid"/>
+<text x="78" y="282.00" text-anchor="end" class="axis">10^-1.5</text>
+<line x1="86" y1="169.00" x2="936" y2="169.00" class="grid"/>
+<text x="78" y="173.00" text-anchor="end" class="axis">10^-0.79</text>
+<line x1="86" y1="60.00" x2="936" y2="60.00" class="grid"/>
+<text x="78" y="64.00" text-anchor="end" class="axis">10^-0.084</text>
+<rect x="86" y="60" width="850" height="436" class="frame"/>
+<polyline points="86.00,60.00 298.50,102.98 511.00,176.90 723.50,159.28 936.00,162.22" fill="none" stroke="#222222" stroke-width="2.2"/>
+<circle cx="86.00" cy="60.00" r="3" fill="#222222"/>
+<circle cx="298.50" cy="102.98" r="3" fill="#222222"/>
+<circle cx="511.00" cy="176.90" r="3" fill="#222222"/>
+<circle cx="723.50" cy="159.28" r="3" fill="#222222"/>
+<circle cx="936.00" cy="162.22" r="3" fill="#222222"/>
+<polyline points="86.00,222.70 298.50,244.81 511.00,391.68 723.50,322.75 936.00,354.64" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="86.00" cy="222.70" r="3" fill="#1f77b4"/>
+<circle cx="298.50" cy="244.81" r="3" fill="#1f77b4"/>
+<circle cx="511.00" cy="391.68" r="3" fill="#1f77b4"/>
+<circle cx="723.50" cy="322.75" r="3" fill="#1f77b4"/>
+<circle cx="936.00" cy="354.64" r="3" fill="#1f77b4"/>
+<polyline points="86.00,179.30 298.50,245.76 511.00,282.04 723.50,334.66 936.00,359.10" fill="none" stroke="#ff7f0e" stroke-width="2.2"/>
+<circle cx="86.00" cy="179.30" r="3" fill="#ff7f0e"/>
+<circle cx="298.50" cy="245.76" r="3" fill="#ff7f0e"/>
+<circle cx="511.00" cy="282.04" r="3" fill="#ff7f0e"/>
+<circle cx="723.50" cy="334.66" r="3" fill="#ff7f0e"/>
+<circle cx="936.00" cy="359.10" r="3" fill="#ff7f0e"/>
+<polyline points="86.00,186.21 298.50,247.29 511.00,316.04 723.50,286.42 936.00,375.95" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="86.00" cy="186.21" r="3" fill="#2ca02c"/>
+<circle cx="298.50" cy="247.29" r="3" fill="#2ca02c"/>
+<circle cx="511.00" cy="316.04" r="3" fill="#2ca02c"/>
+<circle cx="723.50" cy="286.42" r="3" fill="#2ca02c"/>
+<circle cx="936.00" cy="375.95" r="3" fill="#2ca02c"/>
+<polyline points="86.00,207.78 298.50,280.06 511.00,337.46 723.50,496.00 936.00,485.17" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="86.00" cy="207.78" r="3" fill="#d62728"/>
+<circle cx="298.50" cy="280.06" r="3" fill="#d62728"/>
+<circle cx="511.00" cy="337.46" r="3" fill="#d62728"/>
+<circle cx="723.50" cy="496.00" r="3" fill="#d62728"/>
+<circle cx="936.00" cy="485.17" r="3" fill="#d62728"/>
+<polyline points="86.00,402.92 298.50,426.19 511.00,449.46 723.50,472.73 936.00,496.00" fill="none" stroke="#888888" stroke-width="1.4" stroke-dasharray="6,5"/>
+<polyline points="86.00,309.85 298.50,356.38 511.00,402.92 723.50,449.46 936.00,496.00" fill="none" stroke="#666666" stroke-width="1.4" stroke-dasharray="6,5"/>
+<text x="480.0" y="544" text-anchor="middle" class="axis">Paths N</text>
+<text x="20" y="280.0" text-anchor="middle" transform="rotate(-90 20 280.0)" class="axis">Absolute / RMS error</text>
+<line x1="110" y1="90" x2="128" y2="90" stroke="#222222" stroke-width="2.2"/>
+<circle cx="119" cy="90" r="3" fill="#222222"/>
+<text x="134" y="94" class="legend">MC (slope=-0.56)</text>
+<line x1="110" y1="106" x2="128" y2="106" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="119" cy="106" r="3" fill="#1f77b4"/>
+<text x="134" y="110" class="legend">QMC asset-first (slope=-0.73)</text>
+<line x1="110" y1="122" x2="128" y2="122" stroke="#ff7f0e" stroke-width="2.2"/>
+<circle cx="119" cy="122" r="3" fill="#ff7f0e"/>
+<text x="134" y="126" class="legend">QMC time-first (slope=-0.96)</text>
+<line x1="110" y1="138" x2="128" y2="138" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="119" cy="138" r="3" fill="#2ca02c"/>
+<text x="134" y="142" class="legend">QMC PCA+bridge (slope=-0.90)</text>
+<line x1="110" y1="154" x2="128" y2="154" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="119" cy="154" r="3" fill="#d62728"/>
+<text x="134" y="158" class="legend">QMC adaptive (slope=-1.66)</text>
+</svg>

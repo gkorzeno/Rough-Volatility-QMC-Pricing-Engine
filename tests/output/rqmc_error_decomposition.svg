@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="800" viewBox="0 0 420 800">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 20px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.label { font-size: 11px; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="210.0" y="26" text-anchor="middle" class="title">QMC Error Decomposition</text>
+<rect x="20" y="20" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="110.0" y="38" text-anchor="middle" class="label">d=8, bridge OFF</text>
+<rect x="50" y="188.19" width="36" height="1.81" fill="#1f77b4"/>
+<rect x="108" y="62.73" width="36" height="127.27" fill="#d62728"/>
+<line x1="38" y1="190" x2="182" y2="190" class="frame"/>
+<text x="68" y="206" text-anchor="middle" class="axis">sampling</text>
+<text x="126" y="206" text-anchor="middle" class="axis">bias</text>
+<text x="110.0" y="215" text-anchor="middle" class="label">effective dim 90% = 5</text>
+<text x="110.0" y="232" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+<rect x="220" y="20" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="310.0" y="38" text-anchor="middle" class="label">d=8, bridge ON</text>
+<rect x="250" y="187.25" width="36" height="2.75" fill="#1f77b4"/>
+<rect x="308" y="62.73" width="36" height="127.27" fill="#d62728"/>
+<line x1="238" y1="190" x2="382" y2="190" class="frame"/>
+<text x="268" y="206" text-anchor="middle" class="axis">sampling</text>
+<text x="326" y="206" text-anchor="middle" class="axis">bias</text>
+<text x="310.0" y="215" text-anchor="middle" class="label">effective dim 90% = 5</text>
+<text x="310.0" y="232" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+<rect x="20" y="280" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="110.0" y="298" text-anchor="middle" class="label">d=32, bridge OFF</text>
+<rect x="50" y="399.24" width="36" height="50.76" fill="#1f77b4"/>
+<rect x="108" y="418.27" width="36" height="31.73" fill="#d62728"/>
+<line x1="38" y1="450" x2="182" y2="450" class="frame"/>
+<text x="68" y="466" text-anchor="middle" class="axis">sampling</text>
+<text x="126" y="466" text-anchor="middle" class="axis">bias</text>
+<text x="110.0" y="475" text-anchor="middle" class="label">effective dim 90% = 18</text>
+<text x="110.0" y="492" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+<rect x="220" y="280" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="310.0" y="298" text-anchor="middle" class="label">d=32, bridge ON</text>
+<rect x="250" y="445.67" width="36" height="4.33" fill="#1f77b4"/>
+<rect x="308" y="418.27" width="36" height="31.73" fill="#d62728"/>
+<line x1="238" y1="450" x2="382" y2="450" class="frame"/>
+<text x="268" y="466" text-anchor="middle" class="axis">sampling</text>
+<text x="326" y="466" text-anchor="middle" class="axis">bias</text>
+<text x="310.0" y="475" text-anchor="middle" class="label">effective dim 90% = 21</text>
+<text x="310.0" y="492" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+<rect x="20" y="540" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="110.0" y="558" text-anchor="middle" class="label">d=128, bridge OFF</text>
+<rect x="50" y="606.33" width="36" height="103.67" fill="#1f77b4"/>
+<rect x="108" y="702.07" width="36" height="7.93" fill="#d62728"/>
+<line x1="38" y1="710" x2="182" y2="710" class="frame"/>
+<text x="68" y="726" text-anchor="middle" class="axis">sampling</text>
+<text x="126" y="726" text-anchor="middle" class="axis">bias</text>
+<text x="110.0" y="735" text-anchor="middle" class="label">effective dim 90% = 69</text>
+<text x="110.0" y="752" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+<rect x="220" y="540" width="180" height="240" fill="#ffffff" stroke="#dddddd"/>
+<text x="310.0" y="558" text-anchor="middle" class="label">d=128, bridge ON</text>
+<rect x="250" y="704.82" width="36" height="5.18" fill="#1f77b4"/>
+<rect x="308" y="702.07" width="36" height="7.93" fill="#d62728"/>
+<line x1="238" y1="710" x2="382" y2="710" class="frame"/>
+<text x="268" y="726" text-anchor="middle" class="axis">sampling</text>
+<text x="326" y="726" text-anchor="middle" class="axis">bias</text>
+<text x="310.0" y="735" text-anchor="middle" class="label">effective dim 90% = 85</text>
+<text x="310.0" y="752" text-anchor="middle" class="label">ordering impact shown by early-dim concentration</text>
+</svg>

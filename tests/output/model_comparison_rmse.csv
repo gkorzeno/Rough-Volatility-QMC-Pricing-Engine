@@ -1,0 +1,5 @@
+model,rmse
+Rough Bergomi,0
+Local Vol (Dupire),0.0288868
+Heston,0.0331612
+Black-Scholes,0.0296881

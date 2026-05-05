@@ -1,0 +1,364 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="920" viewBox="0 0 1300 920">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 20px; font-weight: bold; }
+.subtitle { font-size: 12px; fill: #444; }
+.panel-title { font-size: 14px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+.guide { stroke-width: 1.2; fill: none; opacity: 0.85; }
+.series { stroke-width: 2.2; fill: none; }
+</style>
+<text x="650.0" y="26" text-anchor="middle" class="title">MC vs QMC vs RQMC convergence</text>
+<text x="650.0" y="44" text-anchor="middle" class="subtitle">Geometric-Asian call under GBM, log-log error vs total paths N</text>
+<rect x="20" y="20" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="330.0" y="40" text-anchor="middle" class="panel-title">d = 8, Brownian bridge OFF</text>
+<line x1="100" y1="245.00" x2="620" y2="245.00" class="grid"/>
+<text x="92" y="249.00" text-anchor="end" class="axis">1e-3</text>
+<line x1="100" y1="185.00" x2="620" y2="185.00" class="grid"/>
+<text x="92" y="189.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="100" y1="125.00" x2="620" y2="125.00" class="grid"/>
+<text x="92" y="129.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="100" y1="65.00" x2="620" y2="65.00" class="grid"/>
+<text x="92" y="69.00" text-anchor="end" class="axis">1e0</text>
+<line x1="100.00" y1="65" x2="100.00" y2="245" class="grid"/>
+<text x="100.00" y="263" text-anchor="middle" class="axis">256</text>
+<line x1="273.33" y1="65" x2="273.33" y2="245" class="grid"/>
+<text x="273.33" y="263" text-anchor="middle" class="axis">512</text>
+<line x1="446.67" y1="65" x2="446.67" y2="245" class="grid"/>
+<text x="446.67" y="263" text-anchor="middle" class="axis">1024</text>
+<line x1="620.00" y1="65" x2="620.00" y2="245" class="grid"/>
+<text x="620.00" y="263" text-anchor="middle" class="axis">2048</text>
+<rect x="100" y="65" width="520" height="180" class="frame"/>
+<text x="330.0" y="288" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="38" y="160.0" text-anchor="middle" transform="rotate(-90 38 160.0)" class="axis">Absolute error</text>
+<polyline points="100.00,80.11 273.33,89.14 446.67,98.17 620.00,107.20" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="100.00,96.95 273.33,115.01 446.67,133.08 620.00,151.14" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="100.00,80.11 273.33,70.51 446.67,86.68 620.00,114.61" class="series" stroke="#222222"/>
+<circle cx="100.00" cy="80.11" r="3.2" fill="#222222"/>
+<circle cx="273.33" cy="70.51" r="3.2" fill="#222222"/>
+<circle cx="446.67" cy="86.68" r="3.2" fill="#222222"/>
+<circle cx="620.00" cy="114.61" r="3.2" fill="#222222"/>
+<polyline points="100.00,96.95 273.33,118.85 446.67,158.73 620.00,189.53" class="series" stroke="#1f77b4"/>
+<circle cx="100.00" cy="96.95" r="3.2" fill="#1f77b4"/>
+<circle cx="273.33" cy="118.85" r="3.2" fill="#1f77b4"/>
+<circle cx="446.67" cy="158.73" r="3.2" fill="#1f77b4"/>
+<circle cx="620.00" cy="189.53" r="3.2" fill="#1f77b4"/>
+<polyline points="100.00,114.30 273.33,101.58 446.67,110.91 620.00,146.23" class="series" stroke="#2ca02c"/>
+<circle cx="100.00" cy="114.30" r="3.2" fill="#2ca02c"/>
+<circle cx="273.33" cy="101.58" r="3.2" fill="#2ca02c"/>
+<circle cx="446.67" cy="110.91" r="3.2" fill="#2ca02c"/>
+<circle cx="620.00" cy="146.23" r="3.2" fill="#2ca02c"/>
+<polyline points="100.00,141.61 273.33,130.89 446.67,146.98 620.00,200.51" class="series" stroke="#d62728"/>
+<circle cx="100.00" cy="141.61" r="3.2" fill="#d62728"/>
+<circle cx="273.33" cy="130.89" r="3.2" fill="#d62728"/>
+<circle cx="446.67" cy="146.98" r="3.2" fill="#d62728"/>
+<circle cx="620.00" cy="200.51" r="3.2" fill="#d62728"/>
+<line x1="108" y1="81" x2="126" y2="81" stroke="#222222" stroke-width="2.2"/>
+<circle cx="117" cy="81" r="3.0" fill="#222222"/>
+<text x="132" y="85" class="legend">MC (slope=-0.66)</text>
+<line x1="108" y1="97" x2="126" y2="97" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="117" cy="97" r="3.0" fill="#1f77b4"/>
+<text x="132" y="101" class="legend">QMC (slope=-1.76)</text>
+<line x1="108" y1="113" x2="126" y2="113" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="117" cy="113" r="3.0" fill="#2ca02c"/>
+<text x="132" y="117" class="legend">RQMC (Digital Shift) (slope=-0.58)</text>
+<line x1="108" y1="129" x2="126" y2="129" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="117" cy="129" r="3.0" fill="#d62728"/>
+<text x="132" y="133" class="legend">RQMC (Owen Scramble) (slope=-1.07)</text>
+<line x1="108" y1="145" x2="126" y2="145" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="132" y="149" class="legend">MC guide N^-1/2</text>
+<line x1="108" y1="161" x2="126" y2="161" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="132" y="165" class="legend">Ideal QMC guide N^-1</text>
+<rect x="660" y="20" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="970.0" y="40" text-anchor="middle" class="panel-title">d = 8, Brownian bridge ON</text>
+<line x1="740" y1="245.00" x2="1260" y2="245.00" class="grid"/>
+<text x="732" y="249.00" text-anchor="end" class="axis">1e-3</text>
+<line x1="740" y1="185.00" x2="1260" y2="185.00" class="grid"/>
+<text x="732" y="189.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="740" y1="125.00" x2="1260" y2="125.00" class="grid"/>
+<text x="732" y="129.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="740" y1="65.00" x2="1260" y2="65.00" class="grid"/>
+<text x="732" y="69.00" text-anchor="end" class="axis">1e0</text>
+<line x1="740.00" y1="65" x2="740.00" y2="245" class="grid"/>
+<text x="740.00" y="263" text-anchor="middle" class="axis">256</text>
+<line x1="913.33" y1="65" x2="913.33" y2="245" class="grid"/>
+<text x="913.33" y="263" text-anchor="middle" class="axis">512</text>
+<line x1="1086.67" y1="65" x2="1086.67" y2="245" class="grid"/>
+<text x="1086.67" y="263" text-anchor="middle" class="axis">1024</text>
+<line x1="1260.00" y1="65" x2="1260.00" y2="245" class="grid"/>
+<text x="1260.00" y="263" text-anchor="middle" class="axis">2048</text>
+<rect x="740" y="65" width="520" height="180" class="frame"/>
+<text x="970.0" y="288" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="678" y="160.0" text-anchor="middle" transform="rotate(-90 678 160.0)" class="axis">Absolute error</text>
+<polyline points="740.00,80.11 913.33,89.14 1086.67,98.17 1260.00,107.20" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="740.00,104.79 913.33,122.85 1086.67,140.91 1260.00,158.98" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="740.00,80.11 913.33,70.51 1086.67,86.68 1260.00,114.61" class="series" stroke="#222222"/>
+<circle cx="740.00" cy="80.11" r="3.2" fill="#222222"/>
+<circle cx="913.33" cy="70.51" r="3.2" fill="#222222"/>
+<circle cx="1086.67" cy="86.68" r="3.2" fill="#222222"/>
+<circle cx="1260.00" cy="114.61" r="3.2" fill="#222222"/>
+<polyline points="740.00,104.79 913.33,126.38 1086.67,147.56 1260.00,178.63" class="series" stroke="#1f77b4"/>
+<circle cx="740.00" cy="104.79" r="3.2" fill="#1f77b4"/>
+<circle cx="913.33" cy="126.38" r="3.2" fill="#1f77b4"/>
+<circle cx="1086.67" cy="147.56" r="3.2" fill="#1f77b4"/>
+<circle cx="1260.00" cy="178.63" r="3.2" fill="#1f77b4"/>
+<polyline points="740.00,99.62 913.33,116.98 1086.67,115.59 1260.00,191.33" class="series" stroke="#2ca02c"/>
+<circle cx="740.00" cy="99.62" r="3.2" fill="#2ca02c"/>
+<circle cx="913.33" cy="116.98" r="3.2" fill="#2ca02c"/>
+<circle cx="1086.67" cy="115.59" r="3.2" fill="#2ca02c"/>
+<circle cx="1260.00" cy="191.33" r="3.2" fill="#2ca02c"/>
+<polyline points="740.00,116.35 913.33,168.11 1086.67,165.40 1260.00,187.04" class="series" stroke="#d62728"/>
+<circle cx="740.00" cy="116.35" r="3.2" fill="#d62728"/>
+<circle cx="913.33" cy="168.11" r="3.2" fill="#d62728"/>
+<circle cx="1086.67" cy="165.40" r="3.2" fill="#d62728"/>
+<circle cx="1260.00" cy="187.04" r="3.2" fill="#d62728"/>
+<line x1="748" y1="81" x2="766" y2="81" stroke="#222222" stroke-width="2.2"/>
+<circle cx="757" cy="81" r="3.0" fill="#222222"/>
+<text x="772" y="85" class="legend">MC (slope=-0.66)</text>
+<line x1="748" y1="97" x2="766" y2="97" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="757" cy="97" r="3.0" fill="#1f77b4"/>
+<text x="772" y="101" class="legend">QMC (slope=-1.34)</text>
+<line x1="748" y1="113" x2="766" y2="113" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="757" cy="113" r="3.0" fill="#2ca02c"/>
+<text x="772" y="117" class="legend">RQMC (Digital Shift) (slope=-1.52)</text>
+<line x1="748" y1="129" x2="766" y2="129" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="757" cy="129" r="3.0" fill="#d62728"/>
+<text x="772" y="133" class="legend">RQMC (Owen Scramble) (slope=-1.16)</text>
+<line x1="748" y1="145" x2="766" y2="145" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="772" y="149" class="legend">MC guide N^-1/2</text>
+<line x1="748" y1="161" x2="766" y2="161" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="772" y="165" class="legend">Ideal QMC guide N^-1</text>
+<rect x="20" y="320" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="330.0" y="340" text-anchor="middle" class="panel-title">d = 32, Brownian bridge OFF</text>
+<line x1="100" y1="545.00" x2="620" y2="545.00" class="grid"/>
+<text x="92" y="549.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="100" y1="455.00" x2="620" y2="455.00" class="grid"/>
+<text x="92" y="459.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="100" y1="365.00" x2="620" y2="365.00" class="grid"/>
+<text x="92" y="369.00" text-anchor="end" class="axis">1e0</text>
+<line x1="100.00" y1="365" x2="100.00" y2="545" class="grid"/>
+<text x="100.00" y="563" text-anchor="middle" class="axis">256</text>
+<line x1="273.33" y1="365" x2="273.33" y2="545" class="grid"/>
+<text x="273.33" y="563" text-anchor="middle" class="axis">512</text>
+<line x1="446.67" y1="365" x2="446.67" y2="545" class="grid"/>
+<text x="446.67" y="563" text-anchor="middle" class="axis">1024</text>
+<line x1="620.00" y1="365" x2="620.00" y2="545" class="grid"/>
+<text x="620.00" y="563" text-anchor="middle" class="axis">2048</text>
+<rect x="100" y="365" width="520" height="180" class="frame"/>
+<text x="330.0" y="588" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="38" y="460.0" text-anchor="middle" transform="rotate(-90 38 460.0)" class="axis">Absolute error</text>
+<polyline points="100.00,387.14 273.33,400.69 446.67,414.23 620.00,427.78" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="100.00,370.27 273.33,397.36 446.67,424.45 620.00,451.55" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="100.00,387.14 273.33,437.46 446.67,411.66 620.00,454.47" class="series" stroke="#222222"/>
+<circle cx="100.00" cy="387.14" r="3.2" fill="#222222"/>
+<circle cx="273.33" cy="437.46" r="3.2" fill="#222222"/>
+<circle cx="446.67" cy="411.66" r="3.2" fill="#222222"/>
+<circle cx="620.00" cy="454.47" r="3.2" fill="#222222"/>
+<polyline points="100.00,370.27 273.33,384.58 446.67,402.73 620.00,421.50" class="series" stroke="#1f77b4"/>
+<circle cx="100.00" cy="370.27" r="3.2" fill="#1f77b4"/>
+<circle cx="273.33" cy="384.58" r="3.2" fill="#1f77b4"/>
+<circle cx="446.67" cy="402.73" r="3.2" fill="#1f77b4"/>
+<circle cx="620.00" cy="421.50" r="3.2" fill="#1f77b4"/>
+<polyline points="100.00,430.36 273.33,431.28 446.67,446.30 620.00,482.30" class="series" stroke="#2ca02c"/>
+<circle cx="100.00" cy="430.36" r="3.2" fill="#2ca02c"/>
+<circle cx="273.33" cy="431.28" r="3.2" fill="#2ca02c"/>
+<circle cx="446.67" cy="446.30" r="3.2" fill="#2ca02c"/>
+<circle cx="620.00" cy="482.30" r="3.2" fill="#2ca02c"/>
+<polyline points="100.00,407.08 273.33,505.72 446.67,477.34 620.00,484.32" class="series" stroke="#d62728"/>
+<circle cx="100.00" cy="407.08" r="3.2" fill="#d62728"/>
+<circle cx="273.33" cy="505.72" r="3.2" fill="#d62728"/>
+<circle cx="446.67" cy="477.34" r="3.2" fill="#d62728"/>
+<circle cx="620.00" cy="484.32" r="3.2" fill="#d62728"/>
+<line x1="108" y1="381" x2="126" y2="381" stroke="#222222" stroke-width="2.2"/>
+<circle cx="117" cy="381" r="3.0" fill="#222222"/>
+<text x="132" y="385" class="legend">MC (slope=-0.65)</text>
+<line x1="108" y1="397" x2="126" y2="397" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="117" cy="397" r="3.0" fill="#1f77b4"/>
+<text x="132" y="401" class="legend">QMC (slope=-0.63)</text>
+<line x1="108" y1="413" x2="126" y2="413" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="117" cy="413" r="3.0" fill="#2ca02c"/>
+<text x="132" y="417" class="legend">RQMC (Digital Shift) (slope=-0.63)</text>
+<line x1="108" y1="429" x2="126" y2="429" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="117" cy="429" r="3.0" fill="#d62728"/>
+<text x="132" y="433" class="legend">RQMC (Owen Scramble) (slope=-0.75)</text>
+<line x1="108" y1="445" x2="126" y2="445" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="132" y="449" class="legend">MC guide N^-1/2</text>
+<line x1="108" y1="461" x2="126" y2="461" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="132" y="465" class="legend">Ideal QMC guide N^-1</text>
+<rect x="660" y="320" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="970.0" y="340" text-anchor="middle" class="panel-title">d = 32, Brownian bridge ON</text>
+<line x1="740" y1="545.00" x2="1260" y2="545.00" class="grid"/>
+<text x="732" y="549.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="740" y1="455.00" x2="1260" y2="455.00" class="grid"/>
+<text x="732" y="459.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="740" y1="365.00" x2="1260" y2="365.00" class="grid"/>
+<text x="732" y="369.00" text-anchor="end" class="axis">1e0</text>
+<line x1="740.00" y1="365" x2="740.00" y2="545" class="grid"/>
+<text x="740.00" y="563" text-anchor="middle" class="axis">256</text>
+<line x1="913.33" y1="365" x2="913.33" y2="545" class="grid"/>
+<text x="913.33" y="563" text-anchor="middle" class="axis">512</text>
+<line x1="1086.67" y1="365" x2="1086.67" y2="545" class="grid"/>
+<text x="1086.67" y="563" text-anchor="middle" class="axis">1024</text>
+<line x1="1260.00" y1="365" x2="1260.00" y2="545" class="grid"/>
+<text x="1260.00" y="563" text-anchor="middle" class="axis">2048</text>
+<rect x="740" y="365" width="520" height="180" class="frame"/>
+<text x="970.0" y="588" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="678" y="460.0" text-anchor="middle" transform="rotate(-90 678 460.0)" class="axis">Absolute error</text>
+<polyline points="740.00,387.14 913.33,400.69 1086.67,414.23 1260.00,427.78" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="740.00,418.30 913.33,445.39 1086.67,472.48 1260.00,499.57" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="740.00,387.14 913.33,437.46 1086.67,411.66 1260.00,454.47" class="series" stroke="#222222"/>
+<circle cx="740.00" cy="387.14" r="3.2" fill="#222222"/>
+<circle cx="913.33" cy="437.46" r="3.2" fill="#222222"/>
+<circle cx="1086.67" cy="411.66" r="3.2" fill="#222222"/>
+<circle cx="1260.00" cy="454.47" r="3.2" fill="#222222"/>
+<polyline points="740.00,418.30 913.33,446.48 1086.67,479.35 1260.00,517.72" class="series" stroke="#1f77b4"/>
+<circle cx="740.00" cy="418.30" r="3.2" fill="#1f77b4"/>
+<circle cx="913.33" cy="446.48" r="3.2" fill="#1f77b4"/>
+<circle cx="1086.67" cy="479.35" r="3.2" fill="#1f77b4"/>
+<circle cx="1260.00" cy="517.72" r="3.2" fill="#1f77b4"/>
+<polyline points="740.00,414.88 913.33,434.94 1086.67,466.22 1260.00,476.98" class="series" stroke="#2ca02c"/>
+<circle cx="740.00" cy="414.88" r="3.2" fill="#2ca02c"/>
+<circle cx="913.33" cy="434.94" r="3.2" fill="#2ca02c"/>
+<circle cx="1086.67" cy="466.22" r="3.2" fill="#2ca02c"/>
+<circle cx="1260.00" cy="476.98" r="3.2" fill="#2ca02c"/>
+<polyline points="740.00,471.61 913.33,490.60 1086.67,518.53 1260.00,521.13" class="series" stroke="#d62728"/>
+<circle cx="740.00" cy="471.61" r="3.2" fill="#d62728"/>
+<circle cx="913.33" cy="490.60" r="3.2" fill="#d62728"/>
+<circle cx="1086.67" cy="518.53" r="3.2" fill="#d62728"/>
+<circle cx="1260.00" cy="521.13" r="3.2" fill="#d62728"/>
+<line x1="748" y1="381" x2="766" y2="381" stroke="#222222" stroke-width="2.2"/>
+<circle cx="757" cy="381" r="3.0" fill="#222222"/>
+<text x="772" y="385" class="legend">MC (slope=-0.65)</text>
+<line x1="748" y1="397" x2="766" y2="397" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="757" cy="397" r="3.0" fill="#1f77b4"/>
+<text x="772" y="401" class="legend">QMC (slope=-1.22)</text>
+<line x1="748" y1="413" x2="766" y2="413" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="757" cy="413" r="3.0" fill="#2ca02c"/>
+<text x="772" y="417" class="legend">RQMC (Digital Shift) (slope=-0.80)</text>
+<line x1="748" y1="429" x2="766" y2="429" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="757" cy="429" r="3.0" fill="#d62728"/>
+<text x="772" y="433" class="legend">RQMC (Owen Scramble) (slope=-0.65)</text>
+<line x1="748" y1="445" x2="766" y2="445" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="772" y="449" class="legend">MC guide N^-1/2</text>
+<line x1="748" y1="461" x2="766" y2="461" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="772" y="465" class="legend">Ideal QMC guide N^-1</text>
+<rect x="20" y="620" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="330.0" y="640" text-anchor="middle" class="panel-title">d = 128, Brownian bridge OFF</text>
+<line x1="100" y1="845.00" x2="620" y2="845.00" class="grid"/>
+<text x="92" y="849.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="100" y1="785.00" x2="620" y2="785.00" class="grid"/>
+<text x="92" y="789.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="100" y1="725.00" x2="620" y2="725.00" class="grid"/>
+<text x="92" y="729.00" text-anchor="end" class="axis">1e0</text>
+<line x1="100" y1="665.00" x2="620" y2="665.00" class="grid"/>
+<text x="92" y="669.00" text-anchor="end" class="axis">1e1</text>
+<line x1="100.00" y1="665" x2="100.00" y2="845" class="grid"/>
+<text x="100.00" y="863" text-anchor="middle" class="axis">256</text>
+<line x1="273.33" y1="665" x2="273.33" y2="845" class="grid"/>
+<text x="273.33" y="863" text-anchor="middle" class="axis">512</text>
+<line x1="446.67" y1="665" x2="446.67" y2="845" class="grid"/>
+<text x="446.67" y="863" text-anchor="middle" class="axis">1024</text>
+<line x1="620.00" y1="665" x2="620.00" y2="845" class="grid"/>
+<text x="620.00" y="863" text-anchor="middle" class="axis">2048</text>
+<rect x="100" y="665" width="520" height="180" class="frame"/>
+<text x="330.0" y="888" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="38" y="760.0" text-anchor="middle" transform="rotate(-90 38 760.0)" class="axis">Absolute error</text>
+<polyline points="100.00,758.68 273.33,767.71 446.67,776.74 620.00,785.77" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="100.00,707.75 273.33,725.81 446.67,743.87 620.00,761.93" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="100.00,758.68 273.33,767.85 446.67,761.52 620.00,756.71" class="series" stroke="#222222"/>
+<circle cx="100.00" cy="758.68" r="3.2" fill="#222222"/>
+<circle cx="273.33" cy="767.85" r="3.2" fill="#222222"/>
+<circle cx="446.67" cy="761.52" r="3.2" fill="#222222"/>
+<circle cx="620.00" cy="756.71" r="3.2" fill="#222222"/>
+<polyline points="100.00,707.75 273.33,720.49 446.67,731.63 620.00,744.06" class="series" stroke="#1f77b4"/>
+<circle cx="100.00" cy="707.75" r="3.2" fill="#1f77b4"/>
+<circle cx="273.33" cy="720.49" r="3.2" fill="#1f77b4"/>
+<circle cx="446.67" cy="731.63" r="3.2" fill="#1f77b4"/>
+<circle cx="620.00" cy="744.06" r="3.2" fill="#1f77b4"/>
+<polyline points="100.00,747.78 273.33,762.35 446.67,760.11 620.00,820.68" class="series" stroke="#2ca02c"/>
+<circle cx="100.00" cy="747.78" r="3.2" fill="#2ca02c"/>
+<circle cx="273.33" cy="762.35" r="3.2" fill="#2ca02c"/>
+<circle cx="446.67" cy="760.11" r="3.2" fill="#2ca02c"/>
+<circle cx="620.00" cy="820.68" r="3.2" fill="#2ca02c"/>
+<polyline points="100.00,754.05 273.33,781.74 446.67,773.40 620.00,795.75" class="series" stroke="#d62728"/>
+<circle cx="100.00" cy="754.05" r="3.2" fill="#d62728"/>
+<circle cx="273.33" cy="781.74" r="3.2" fill="#d62728"/>
+<circle cx="446.67" cy="773.40" r="3.2" fill="#d62728"/>
+<circle cx="620.00" cy="795.75" r="3.2" fill="#d62728"/>
+<line x1="108" y1="681" x2="126" y2="681" stroke="#222222" stroke-width="2.2"/>
+<circle cx="117" cy="681" r="3.0" fill="#222222"/>
+<text x="132" y="685" class="legend">MC (slope=0.07)</text>
+<line x1="108" y1="697" x2="126" y2="697" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="117" cy="697" r="3.0" fill="#1f77b4"/>
+<text x="132" y="701" class="legend">QMC (slope=-0.66)</text>
+<line x1="108" y1="713" x2="126" y2="713" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="117" cy="713" r="3.0" fill="#2ca02c"/>
+<text x="132" y="717" class="legend">RQMC (Digital Shift) (slope=-1.20)</text>
+<line x1="108" y1="729" x2="126" y2="729" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="117" cy="729" r="3.0" fill="#d62728"/>
+<text x="132" y="733" class="legend">RQMC (Owen Scramble) (slope=-0.65)</text>
+<line x1="108" y1="745" x2="126" y2="745" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="132" y="749" class="legend">MC guide N^-1/2</text>
+<line x1="108" y1="761" x2="126" y2="761" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="132" y="765" class="legend">Ideal QMC guide N^-1</text>
+<rect x="660" y="620" width="620" height="280" fill="#ffffff" stroke="#dddddd"/>
+<text x="970.0" y="640" text-anchor="middle" class="panel-title">d = 128, Brownian bridge ON</text>
+<line x1="740" y1="845.00" x2="1260" y2="845.00" class="grid"/>
+<text x="732" y="849.00" text-anchor="end" class="axis">1e-2</text>
+<line x1="740" y1="755.00" x2="1260" y2="755.00" class="grid"/>
+<text x="732" y="759.00" text-anchor="end" class="axis">1e-1</text>
+<line x1="740" y1="665.00" x2="1260" y2="665.00" class="grid"/>
+<text x="732" y="669.00" text-anchor="end" class="axis">1e0</text>
+<line x1="740.00" y1="665" x2="740.00" y2="845" class="grid"/>
+<text x="740.00" y="863" text-anchor="middle" class="axis">256</text>
+<line x1="913.33" y1="665" x2="913.33" y2="845" class="grid"/>
+<text x="913.33" y="863" text-anchor="middle" class="axis">512</text>
+<line x1="1086.67" y1="665" x2="1086.67" y2="845" class="grid"/>
+<text x="1086.67" y="863" text-anchor="middle" class="axis">1024</text>
+<line x1="1260.00" y1="665" x2="1260.00" y2="845" class="grid"/>
+<text x="1260.00" y="863" text-anchor="middle" class="axis">2048</text>
+<rect x="740" y="665" width="520" height="180" class="frame"/>
+<text x="970.0" y="888" text-anchor="middle" class="axis">N (total paths)</text>
+<text x="678" y="760.0" text-anchor="middle" transform="rotate(-90 678 760.0)" class="axis">Absolute error</text>
+<polyline points="740.00,715.51 913.33,729.06 1086.67,742.61 1260.00,756.15" class="guide" stroke="#666666" stroke-dasharray="6,4"/>
+<polyline points="740.00,717.01 913.33,744.10 1086.67,771.19 1260.00,798.28" class="guide" stroke="#8888cc" stroke-dasharray="2,4"/>
+<polyline points="740.00,715.51 913.33,729.27 1086.67,719.78 1260.00,712.57" class="series" stroke="#222222"/>
+<circle cx="740.00" cy="715.51" r="3.2" fill="#222222"/>
+<circle cx="913.33" cy="729.27" r="3.2" fill="#222222"/>
+<circle cx="1086.67" cy="719.78" r="3.2" fill="#222222"/>
+<circle cx="1260.00" cy="712.57" r="3.2" fill="#222222"/>
+<polyline points="740.00,717.01 913.33,745.11 1086.67,776.49 1260.00,810.67" class="series" stroke="#1f77b4"/>
+<circle cx="740.00" cy="717.01" r="3.2" fill="#1f77b4"/>
+<circle cx="913.33" cy="745.11" r="3.2" fill="#1f77b4"/>
+<circle cx="1086.67" cy="776.49" r="3.2" fill="#1f77b4"/>
+<circle cx="1260.00" cy="810.67" r="3.2" fill="#1f77b4"/>
+<polyline points="740.00,693.39 913.33,722.63 1086.67,765.94 1260.00,769.72" class="series" stroke="#2ca02c"/>
+<circle cx="740.00" cy="693.39" r="3.2" fill="#2ca02c"/>
+<circle cx="913.33" cy="722.63" r="3.2" fill="#2ca02c"/>
+<circle cx="1086.67" cy="765.94" r="3.2" fill="#2ca02c"/>
+<circle cx="1260.00" cy="769.72" r="3.2" fill="#2ca02c"/>
+<polyline points="740.00,725.82 913.33,768.22 1086.67,816.11 1260.00,837.28" class="series" stroke="#d62728"/>
+<circle cx="740.00" cy="725.82" r="3.2" fill="#d62728"/>
+<circle cx="913.33" cy="768.22" r="3.2" fill="#d62728"/>
+<circle cx="1086.67" cy="816.11" r="3.2" fill="#d62728"/>
+<circle cx="1260.00" cy="837.28" r="3.2" fill="#d62728"/>
+<line x1="748" y1="681" x2="766" y2="681" stroke="#222222" stroke-width="2.2"/>
+<circle cx="757" cy="681" r="3.0" fill="#222222"/>
+<text x="772" y="685" class="legend">MC (slope=0.07)</text>
+<line x1="748" y1="697" x2="766" y2="697" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="757" cy="697" r="3.0" fill="#1f77b4"/>
+<text x="772" y="701" class="legend">QMC (slope=-1.15)</text>
+<line x1="748" y1="713" x2="766" y2="713" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="757" cy="713" r="3.0" fill="#2ca02c"/>
+<text x="772" y="717" class="legend">RQMC (Digital Shift) (slope=-1.01)</text>
+<line x1="748" y1="729" x2="766" y2="729" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="757" cy="729" r="3.0" fill="#d62728"/>
+<text x="772" y="733" class="legend">RQMC (Owen Scramble) (slope=-1.41)</text>
+<line x1="748" y1="745" x2="766" y2="745" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="772" y="749" class="legend">MC guide N^-1/2</text>
+<line x1="748" y1="761" x2="766" y2="761" stroke="#8888cc" stroke-width="1.2" stroke-dasharray="2,4"/>
+<text x="772" y="765" class="legend">Ideal QMC guide N^-1</text>
+</svg>

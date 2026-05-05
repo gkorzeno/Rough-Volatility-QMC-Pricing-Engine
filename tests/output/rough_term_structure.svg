@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 18px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="350.0" y="24" text-anchor="middle" class="title">ATM Term Structure</text>
+<line x1="70.00" y1="45" x2="70.00" y2="365" class="grid"/>
+<text x="70.00" y="383" text-anchor="middle" class="axis">0.5</text>
+<line x1="222.50" y1="45" x2="222.50" y2="365" class="grid"/>
+<text x="222.50" y="383" text-anchor="middle" class="axis">0.625</text>
+<line x1="375.00" y1="45" x2="375.00" y2="365" class="grid"/>
+<text x="375.00" y="383" text-anchor="middle" class="axis">0.75</text>
+<line x1="527.50" y1="45" x2="527.50" y2="365" class="grid"/>
+<text x="527.50" y="383" text-anchor="middle" class="axis">0.875</text>
+<line x1="680.00" y1="45" x2="680.00" y2="365" class="grid"/>
+<text x="680.00" y="383" text-anchor="middle" class="axis">1</text>
+<line x1="70" y1="365.00" x2="680" y2="365.00" class="grid"/>
+<text x="62" y="369.00" text-anchor="end" class="axis">0.169</text>
+<line x1="70" y1="285.00" x2="680" y2="285.00" class="grid"/>
+<text x="62" y="289.00" text-anchor="end" class="axis">0.173</text>
+<line x1="70" y1="205.00" x2="680" y2="205.00" class="grid"/>
+<text x="62" y="209.00" text-anchor="end" class="axis">0.177</text>
+<line x1="70" y1="125.00" x2="680" y2="125.00" class="grid"/>
+<text x="62" y="129.00" text-anchor="end" class="axis">0.182</text>
+<line x1="70" y1="45.00" x2="680" y2="45.00" class="grid"/>
+<text x="62" y="49.00" text-anchor="end" class="axis">0.186</text>
+<rect x="70" y="45" width="610" height="320" class="frame"/>
+<polyline points="70.00,365.00 680.00,45.00" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="70.00" cy="365.00" r="3" fill="#d62728"/>
+<circle cx="680.00" cy="45.00" r="3" fill="#d62728"/>
+<text x="350.0" y="408" text-anchor="middle" class="axis">Maturity</text>
+<text x="18" y="210.0" text-anchor="middle" transform="rotate(-90 18 210.0)" class="axis">Implied Vol</text>
+<line x1="78" y1="59" x2="96" y2="59" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="87" cy="59" r="3" fill="#d62728"/>
+<text x="102" y="63" class="legend">ATM IV</text>
+</svg>

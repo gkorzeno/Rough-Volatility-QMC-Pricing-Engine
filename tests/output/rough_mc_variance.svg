@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 18px; font-weight: bold; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #cccccc; stroke-width: 1; opacity: 0.45; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="350.0" y="24" text-anchor="middle" class="title">Monte Carlo Variance Analysis</text>
+<line x1="70.00" y1="45" x2="70.00" y2="365" class="grid"/>
+<text x="70.00" y="383" text-anchor="middle" class="axis">20</text>
+<line x1="222.50" y1="45" x2="222.50" y2="365" class="grid"/>
+<text x="222.50" y="383" text-anchor="middle" class="axis">55</text>
+<line x1="375.00" y1="45" x2="375.00" y2="365" class="grid"/>
+<text x="375.00" y="383" text-anchor="middle" class="axis">90</text>
+<line x1="527.50" y1="45" x2="527.50" y2="365" class="grid"/>
+<text x="527.50" y="383" text-anchor="middle" class="axis">125</text>
+<line x1="680.00" y1="45" x2="680.00" y2="365" class="grid"/>
+<text x="680.00" y="383" text-anchor="middle" class="axis">160</text>
+<line x1="70" y1="365.00" x2="680" y2="365.00" class="grid"/>
+<text x="62" y="369.00" text-anchor="end" class="axis">0.0233</text>
+<line x1="70" y1="285.00" x2="680" y2="285.00" class="grid"/>
+<text x="62" y="289.00" text-anchor="end" class="axis">0.0367</text>
+<line x1="70" y1="205.00" x2="680" y2="205.00" class="grid"/>
+<text x="62" y="209.00" text-anchor="end" class="axis">0.0501</text>
+<line x1="70" y1="125.00" x2="680" y2="125.00" class="grid"/>
+<text x="62" y="129.00" text-anchor="end" class="axis">0.0636</text>
+<line x1="70" y1="45.00" x2="680" y2="45.00" class="grid"/>
+<text x="62" y="49.00" text-anchor="end" class="axis">0.077</text>
+<rect x="70" y="45" width="610" height="320" class="frame"/>
+<polyline points="70.00,45.00 157.14,293.42 331.43,249.95 680.00,365.00" fill="none" stroke="#9467bd" stroke-width="2.2"/>
+<circle cx="70.00" cy="45.00" r="3" fill="#9467bd"/>
+<circle cx="157.14" cy="293.42" r="3" fill="#9467bd"/>
+<circle cx="331.43" cy="249.95" r="3" fill="#9467bd"/>
+<circle cx="680.00" cy="365.00" r="3" fill="#9467bd"/>
+<text x="350.0" y="408" text-anchor="middle" class="axis">Paths</text>
+<text x="18" y="210.0" text-anchor="middle" transform="rotate(-90 18 210.0)" class="axis">Surface RMSE</text>
+<line x1="78" y1="59" x2="96" y2="59" stroke="#9467bd" stroke-width="2.2"/>
+<circle cx="87" cy="59" r="3" fill="#9467bd"/>
+<text x="102" y="63" class="legend">RMSE</text>
+</svg>

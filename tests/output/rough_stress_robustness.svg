@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="940" viewBox="0 0 1260 940">
+<style>
+text { font-family: Arial, sans-serif; fill: #111; }
+.title { font-size: 19px; font-weight: bold; }
+.subtitle { font-size: 12px; fill: #555; }
+.axis { font-size: 11px; fill: #444; }
+.legend { font-size: 11px; }
+.grid { stroke: #d0d0d0; stroke-width: 1; opacity: 0.5; }
+.frame { stroke: #444; stroke-width: 1; fill: none; }
+</style>
+<text x="630" y="24" text-anchor="middle" class="title">Rough Bergomi Stress Robustness</text>
+<text x="630" y="42" text-anchor="middle" class="subtitle">Extreme correlation, high vol-of-vol, and very small H show where QMC drifts away from ideal behavior</text>
+<rect x="20" y="60" width="1220" height="270" fill="#fff" stroke="#dddddd"/>
+<text x="630.0" y="80" text-anchor="middle" class="legend">Pricing convergence slope by scenario</text>
+<line x1="84" y1="252.00" x2="1220" y2="252.00" class="grid"/>
+<text x="76" y="256.00" text-anchor="end" class="axis">-1.15</text>
+<line x1="84" y1="214.00" x2="1220" y2="214.00" class="grid"/>
+<text x="76" y="218.00" text-anchor="end" class="axis">-0.593</text>
+<line x1="84" y1="176.00" x2="1220" y2="176.00" class="grid"/>
+<text x="76" y="180.00" text-anchor="end" class="axis">-0.0315</text>
+<line x1="84" y1="138.00" x2="1220" y2="138.00" class="grid"/>
+<text x="76" y="142.00" text-anchor="end" class="axis">0.53</text>
+<line x1="84" y1="100.00" x2="1220" y2="100.00" class="grid"/>
+<text x="76" y="104.00" text-anchor="end" class="axis">1.09</text>
+<line x1="84" y1="241.52" x2="1220" y2="241.52" stroke="#888" stroke-dasharray="5,4" stroke-width="1.2"/>
+<line x1="84" y1="207.69" x2="1220" y2="207.69" stroke="#888" stroke-dasharray="5,4" stroke-width="1.2"/>
+<rect x="84" y="100" width="1136" height="152" class="frame"/>
+<rect x="86.00" y="100" width="223.20" height="152" fill="#9ecae1" opacity="0.25"/>
+<rect x="128.08" y="173.87" width="40.90" height="12.12" fill="#222222"/>
+<rect x="177.15" y="173.87" width="40.90" height="10.20" fill="#1f77b4"/>
+<rect x="226.23" y="130.40" width="40.90" height="43.47" fill="#d62728"/>
+<text x="197.60" y="270" text-anchor="middle" class="axis">Baseline</text>
+<rect x="313.20" y="100" width="223.20" height="152" fill="#fdd0a2" opacity="0.25"/>
+<rect x="355.28" y="173.87" width="40.90" height="40.30" fill="#222222"/>
+<rect x="404.35" y="173.87" width="40.90" height="9.87" fill="#1f77b4"/>
+<rect x="453.43" y="149.80" width="40.90" height="24.07" fill="#d62728"/>
+<text x="424.80" y="270" text-anchor="middle" class="axis">Rho=-0.95</text>
+<rect x="540.40" y="100" width="223.20" height="152" fill="#fdd0a2" opacity="0.25"/>
+<rect x="582.48" y="159.84" width="40.90" height="14.03" fill="#222222"/>
+<rect x="631.55" y="173.87" width="40.90" height="60.93" fill="#1f77b4"/>
+<rect x="680.63" y="148.39" width="40.90" height="25.48" fill="#d62728"/>
+<text x="652.00" y="270" text-anchor="middle" class="axis">Rho=+0.95</text>
+<rect x="767.60" y="100" width="223.20" height="152" fill="#fdae6b" opacity="0.25"/>
+<rect x="809.68" y="173.87" width="40.90" height="14.58" fill="#222222"/>
+<rect x="858.75" y="173.87" width="40.90" height="18.98" fill="#1f77b4"/>
+<rect x="907.83" y="110.48" width="40.90" height="63.39" fill="#d62728"/>
+<text x="879.20" y="270" text-anchor="middle" class="axis">Eta=3.0</text>
+<rect x="994.80" y="100" width="223.20" height="152" fill="#c7e9c0" opacity="0.25"/>
+<rect x="1036.88" y="173.87" width="40.90" height="16.09" fill="#222222"/>
+<rect x="1085.95" y="173.87" width="40.90" height="9.40" fill="#1f77b4"/>
+<rect x="1135.03" y="136.30" width="40.90" height="37.57" fill="#d62728"/>
+<text x="1106.40" y="270" text-anchor="middle" class="axis">H=0.03</text>
+<text x="630.0" y="316" text-anchor="middle" class="axis">Stress scenario</text>
+<text x="38" y="195.0" text-anchor="middle" transform="rotate(-90 38 195.0)" class="axis">Log-log slope of pricing RMSE vs paths</text>
+<rect x="20" y="350" width="1220" height="250" fill="#fff" stroke="#dddddd"/>
+<text x="630.0" y="370" text-anchor="middle" class="legend">Final-N pricing RMSE by scenario</text>
+<line x1="84" y1="522.00" x2="1220" y2="522.00" class="grid"/>
+<text x="76" y="526.00" text-anchor="end" class="axis">0.234</text>
+<line x1="84" y1="489.00" x2="1220" y2="489.00" class="grid"/>
+<text x="76" y="493.00" text-anchor="end" class="axis">0.574</text>
+<line x1="84" y1="456.00" x2="1220" y2="456.00" class="grid"/>
+<text x="76" y="460.00" text-anchor="end" class="axis">0.914</text>
+<line x1="84" y1="423.00" x2="1220" y2="423.00" class="grid"/>
+<text x="76" y="427.00" text-anchor="end" class="axis">1.25</text>
+<line x1="84" y1="390.00" x2="1220" y2="390.00" class="grid"/>
+<text x="76" y="394.00" text-anchor="end" class="axis">1.59</text>
+<rect x="84" y="390" width="1136" height="132" class="frame"/>
+<rect x="86.00" y="390" width="223.20" height="132" fill="#9ecae1" opacity="0.25"/>
+<rect x="128.08" y="420.57" width="40.90" height="101.43" fill="#222222"/>
+<rect x="177.15" y="437.14" width="40.90" height="84.86" fill="#1f77b4"/>
+<rect x="226.23" y="425.13" width="40.90" height="96.87" fill="#d62728"/>
+<text x="197.60" y="540" text-anchor="middle" class="axis">Baseline</text>
+<rect x="313.20" y="390" width="223.20" height="132" fill="#fdd0a2" opacity="0.25"/>
+<rect x="355.28" y="432.19" width="40.90" height="89.81" fill="#222222"/>
+<rect x="404.35" y="492.50" width="40.90" height="29.50" fill="#1f77b4"/>
+<rect x="453.43" y="473.79" width="40.90" height="48.21" fill="#d62728"/>
+<text x="424.80" y="540" text-anchor="middle" class="axis">Rho=-0.95</text>
+<rect x="540.40" y="390" width="223.20" height="132" fill="#fdd0a2" opacity="0.25"/>
+<rect x="582.48" y="399.10" width="40.90" height="122.90" fill="#222222"/>
+<rect x="631.55" y="512.90" width="40.90" height="9.10" fill="#1f77b4"/>
+<rect x="680.63" y="474.48" width="40.90" height="47.52" fill="#d62728"/>
+<text x="652.00" y="540" text-anchor="middle" class="axis">Rho=+0.95</text>
+<rect x="767.60" y="390" width="223.20" height="132" fill="#fdae6b" opacity="0.25"/>
+<rect x="809.68" y="469.83" width="40.90" height="52.17" fill="#222222"/>
+<rect x="858.75" y="487.29" width="40.90" height="34.71" fill="#1f77b4"/>
+<rect x="907.83" y="459.64" width="40.90" height="62.36" fill="#d62728"/>
+<text x="879.20" y="540" text-anchor="middle" class="axis">Eta=3.0</text>
+<rect x="994.80" y="390" width="223.20" height="132" fill="#c7e9c0" opacity="0.25"/>
+<rect x="1036.88" y="465.74" width="40.90" height="56.26" fill="#222222"/>
+<rect x="1085.95" y="474.80" width="40.90" height="47.20" fill="#1f77b4"/>
+<rect x="1135.03" y="475.19" width="40.90" height="46.81" fill="#d62728"/>
+<text x="1106.40" y="540" text-anchor="middle" class="axis">H=0.03</text>
+<text x="630.0" y="586" text-anchor="middle" class="axis">Stress scenario</text>
+<text x="38" y="475.0" text-anchor="middle" transform="rotate(-90 38 475.0)" class="axis">RMSE at largest path count</text>
+<rect x="20" y="620" width="600" height="260" fill="#fff" stroke="#dddddd"/>
+<text x="320.0" y="640" text-anchor="middle" class="legend">QMC / RQMC slope advantage over MC</text>
+<line x1="84" y1="802.00" x2="600" y2="802.00" class="grid"/>
+<text x="76" y="806.00" text-anchor="end" class="axis">-1.29</text>
+<line x1="84" y1="766.50" x2="600" y2="766.50" class="grid"/>
+<text x="76" y="770.50" text-anchor="end" class="axis">-0.633</text>
+<line x1="84" y1="731.00" x2="600" y2="731.00" class="grid"/>
+<text x="76" y="735.00" text-anchor="end" class="axis">0.0223</text>
+<line x1="84" y1="695.50" x2="600" y2="695.50" class="grid"/>
+<text x="76" y="699.50" text-anchor="end" class="axis">0.678</text>
+<line x1="84" y1="660.00" x2="600" y2="660.00" class="grid"/>
+<text x="76" y="664.00" text-anchor="end" class="axis">1.33</text>
+<rect x="84" y="660" width="516" height="142" class="frame"/>
+<rect x="86.00" y="660" width="99.20" height="142" fill="#9ecae1" opacity="0.25"/>
+<rect x="104.02" y="732.21" width="18.58" height="0.00" fill="#222222"/>
+<rect x="126.31" y="730.66" width="18.58" height="1.54" fill="#1f77b4"/>
+<rect x="148.60" y="687.70" width="18.58" height="44.50" fill="#d62728"/>
+<text x="135.60" y="820" text-anchor="middle" class="axis">Baseline</text>
+<rect x="189.20" y="660" width="99.20" height="142" fill="#fdd0a2" opacity="0.25"/>
+<rect x="207.22" y="732.21" width="18.58" height="0.00" fill="#222222"/>
+<rect x="229.51" y="707.85" width="18.58" height="24.36" fill="#1f77b4"/>
+<rect x="251.80" y="680.68" width="18.58" height="51.53" fill="#d62728"/>
+<text x="238.80" y="820" text-anchor="middle" class="axis">Rho=-0.95</text>
+<rect x="292.40" y="660" width="99.20" height="142" fill="#fdd0a2" opacity="0.25"/>
+<rect x="310.42" y="732.21" width="18.58" height="0.00" fill="#222222"/>
+<rect x="332.71" y="732.21" width="18.58" height="60.00" fill="#1f77b4"/>
+<rect x="355.00" y="723.04" width="18.58" height="9.17" fill="#d62728"/>
+<text x="342.00" y="820" text-anchor="middle" class="axis">Rho=+0.95</text>
+<rect x="395.60" y="660" width="99.20" height="142" fill="#fdae6b" opacity="0.25"/>
+<rect x="413.62" y="732.21" width="18.58" height="0.00" fill="#222222"/>
+<rect x="435.91" y="732.21" width="18.58" height="3.52" fill="#1f77b4"/>
+<rect x="458.20" y="669.79" width="18.58" height="62.41" fill="#d62728"/>
+<text x="445.20" y="820" text-anchor="middle" class="axis">Eta=3.0</text>
+<rect x="498.80" y="660" width="99.20" height="142" fill="#c7e9c0" opacity="0.25"/>
+<rect x="516.82" y="732.21" width="18.58" height="0.00" fill="#222222"/>
+<rect x="539.11" y="726.85" width="18.58" height="5.36" fill="#1f77b4"/>
+<rect x="561.40" y="689.25" width="18.58" height="42.96" fill="#d62728"/>
+<text x="548.40" y="820" text-anchor="middle" class="axis">H=0.03</text>
+<text x="320.0" y="866" text-anchor="middle" class="axis">Stress scenario</text>
+<text x="38" y="750.0" text-anchor="middle" transform="rotate(-90 38 750.0)" class="axis">Slope minus MC slope</text>
+<rect x="640" y="620" width="600" height="260" fill="#fff" stroke="#dddddd"/>
+<text x="940.0" y="640" text-anchor="middle" class="legend">Regime severity proxies</text>
+<line x1="704" y1="802.00" x2="1220" y2="802.00" class="grid"/>
+<text x="696" y="806.00" text-anchor="end" class="axis">-0.108</text>
+<line x1="704" y1="766.50" x2="1220" y2="766.50" class="grid"/>
+<text x="696" y="770.50" text-anchor="end" class="axis">-0.0304</text>
+<line x1="704" y1="731.00" x2="1220" y2="731.00" class="grid"/>
+<text x="696" y="735.00" text-anchor="end" class="axis">0.0473</text>
+<line x1="704" y1="695.50" x2="1220" y2="695.50" class="grid"/>
+<text x="696" y="699.50" text-anchor="end" class="axis">0.125</text>
+<line x1="704" y1="660.00" x2="1220" y2="660.00" class="grid"/>
+<text x="696" y="664.00" text-anchor="end" class="axis">0.203</text>
+<rect x="704" y="660" width="516" height="142" class="frame"/>
+<rect x="706.00" y="660" width="99.20" height="142" fill="#9ecae1" opacity="0.25"/>
+<rect x="724.02" y="679.77" width="18.58" height="72.82" fill="#222222"/>
+<rect x="746.31" y="741.73" width="18.58" height="10.86" fill="#1f77b4"/>
+<rect x="768.60" y="747.17" width="18.58" height="5.42" fill="#d62728"/>
+<text x="755.60" y="820" text-anchor="middle" class="axis">Baseline</text>
+<rect x="809.20" y="660" width="99.20" height="142" fill="#fdd0a2" opacity="0.25"/>
+<rect x="827.22" y="669.79" width="18.58" height="82.80" fill="#222222"/>
+<rect x="849.51" y="741.01" width="18.58" height="11.59" fill="#1f77b4"/>
+<rect x="871.80" y="751.37" width="18.58" height="1.23" fill="#d62728"/>
+<text x="858.80" y="820" text-anchor="middle" class="axis">Rho=-0.95</text>
+<rect x="912.40" y="660" width="99.20" height="142" fill="#fdd0a2" opacity="0.25"/>
+<rect x="930.42" y="712.88" width="18.58" height="39.71" fill="#222222"/>
+<rect x="952.71" y="752.59" width="18.58" height="39.62" fill="#1f77b4"/>
+<rect x="975.00" y="751.51" width="18.58" height="1.08" fill="#d62728"/>
+<text x="962.00" y="820" text-anchor="middle" class="axis">Rho=+0.95</text>
+<rect x="1015.60" y="660" width="99.20" height="142" fill="#fdae6b" opacity="0.25"/>
+<rect x="1033.62" y="727.54" width="18.58" height="25.05" fill="#222222"/>
+<rect x="1055.91" y="751.95" width="18.58" height="0.64" fill="#1f77b4"/>
+<rect x="1078.20" y="747.17" width="18.58" height="5.42" fill="#d62728"/>
+<text x="1065.20" y="820" text-anchor="middle" class="axis">Eta=3.0</text>
+<rect x="1118.80" y="660" width="99.20" height="142" fill="#c7e9c0" opacity="0.25"/>
+<rect x="1136.82" y="686.41" width="18.58" height="66.18" fill="#222222"/>
+<rect x="1159.11" y="737.29" width="18.58" height="15.30" fill="#1f77b4"/>
+<rect x="1181.40" y="747.17" width="18.58" height="5.42" fill="#d62728"/>
+<text x="1168.40" y="820" text-anchor="middle" class="axis">H=0.03</text>
+<text x="940.0" y="866" text-anchor="middle" class="axis">Stress scenario</text>
+<text x="658" y="750.0" text-anchor="middle" transform="rotate(-90 658 750.0)" class="axis">ATM IV / left skew / |rho error|</text>
+<line x1="90" y1="78" x2="108" y2="78" stroke="#222222" stroke-width="2.2"/>
+<text x="114" y="82" class="legend">MC</text>
+<line x1="90" y1="94" x2="108" y2="94" stroke="#1f77b4" stroke-width="2.2"/>
+<text x="114" y="98" class="legend">QMC</text>
+<line x1="90" y1="110" x2="108" y2="110" stroke="#d62728" stroke-width="2.2"/>
+<text x="114" y="114" class="legend">RQMC</text>
+<rect x="980" y="69" width="14" height="10" fill="#9ecae1" opacity="0.55"/>
+<text x="1002" y="78" class="legend">Baseline</text>
+<rect x="980" y="85" width="14" height="10" fill="#fdd0a2" opacity="0.55"/>
+<text x="1002" y="94" class="legend">Extreme corr</text>
+<rect x="980" y="101" width="14" height="10" fill="#fdae6b" opacity="0.55"/>
+<text x="1002" y="110" class="legend">High vol-of-vol</text>
+<rect x="980" y="117" width="14" height="10" fill="#c7e9c0" opacity="0.55"/>
+<text x="1002" y="126" class="legend">Very small H</text>
+</svg>
